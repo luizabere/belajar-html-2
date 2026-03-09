@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /* Styling agar tabel berada di tengah halaman */
+  .center-table {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 20px; /* Memberi jarak antar kotak promo */
+  }
+
+  /* Styling untuk kotak promo */
+  .promo-box {
+    border: 2px solid red; /* Garis merah sesuai gambar */
+    border-collapse: collapse;
+    width: 200px;
+    text-align: center;
+  }
+
+  .promo-box td {
+    border: 2px solid red;
+    padding: 15px;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  .price {
+    font-weight: bold;
+  }
+
+  .content {
+    text-align: left; /* Teks isi menu rata kiri */
+    height: 100px;
+    vertical-align: top;
+  }
+</style>
+</head>
+<body>
+
+<table class="center-table">
+  <tr>
+    <td>
+      <table class="promo-box">
+        <tr><td class="title">Promo 1</td></tr>
+        <tr>
+          <td class="content">
+            2 Fried Chicken<br>
+            2 Cola<br>
+            1 Rice
+          </td>
+        </tr>
+        <tr><td class="price">IDR. 55.000,-</td></tr>
+      </table>
+    </td>
+
+    <td>
+      <table class="promo-box">
+        <tr><td class="title">Promo 2</td></tr>
+        <tr>
+          <td class="content">
+            4 Fried Chicken<br>
+            2 Cola<br>
+            2 Rice
+          </td>
+        </tr>
+        <tr><td class="price">IDR. 80.000,-</td></tr>
+      </table>
+    </td>
+
+    <td>
+      <table class="promo-box">
+        <tr><td class="title">Promo 3</td></tr>
+        <tr>
+          <td class="content">
+            8 Fried Chicken<br>
+            4 Cola<br>
+            4 Rice
+          </td>
+        </tr>
+        <tr><td class="price">IDR. 120.000,-</td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

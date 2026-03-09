@@ -4,88 +4,108 @@
     <title>Portfolio John Doe</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            /* Menggunakan font serif agar mirip dengan "Times" di gambar */
+            font-family: "Times New Roman", Times, serif;
             line-height: 1.4;
             margin: 40px;
         }
         
+        /* Teknik membuat double border sesuai gambar referensi */
+        .table-container {
+            border: 1px solid black;
+            padding: 3px; /* Jarak untuk efek double border luar */
+            margin-bottom: 20px;
+        }
+
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-bottom: 20px;
         }
+
         table, th, td {
             border: 1px solid black;
         }
+
         td {
             padding: 10px;
         }
 
+        /* Menghilangkan margin judul agar rapat seperti referensi */
+        h1, h2, h3, h4 {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
     </style>
 </head>
 <body>
 
     <div style="text-align: center;">
-        <h1 style="margin-bottom: 5px;">John Doe</h1>
-        <p style="margin-top: 0;">Home | Projects | Blogs | Contact</p>
-        <h2>Web Developer and Designer</h2>
+        <h1>John Doe</h1>
+        <p>Home | Projects | Blogs | Contact</p>
+        <h2 style="font-weight: bold;">Web Developer and Designer</h2>
     </div>
 
-    <table>
-        <tr>
-            <td width="25%" valign="top">
-                <h3>Portfolio Highlights</h3>
-                <ul>
-                    <li>Responsive HTML Layout</li>
-                    <li>E-commerce Storefront</li>
-                    <li>Interactive Form Design</li>
-                    <li>Event Countdown Widget</li>
-                    <li>Prototype Landing Pages</li>
-                </ul>
-            </td>
+    <br>
 
-            <td width="45%" valign="top">
+    <div class="table-container">
+        <table>
+            <tr>
+                <td width="25%" valign="top">
+                    <h3>Portfolio Highlights</h3>
+                    <ul>
+                        <li>Responsive HTML Layout</li>
+                        <li>E-commerce Storefront</li>
+                        <li>Interactive Form Design</li>
+                        <li>Event Countdown Widget</li>
+                        <li>Prototype Landing Pages</li>
+                    </ul>
+                </td>
+
+                <td width="45%" valign="top">
                 <h3>Career Achievements</h3>
                 <p>Frontend Developer [Intern] at XYZ<br>
                 Headed major product redesigns resulting in a 40% increase in user engagement.<br>
-                <a href="#" style="color: purple;">View My LinkedIn Profile</a></p>
+                <a href="https://www.linkedin.com/in/scolastika-luiza-abuk-iru-bere-b8729233b/" target="_blank" style="color: purple;">View My LinkedIn Profile</a></p>
 
                 <h3>Community Involvement</h3>
                 <p>Active participant in local and online developer forums. Regularly contribute to web development blogs and GitHub projects.<br>
-                <a href="#" style="color: purple;">Visit My GitHub</a></p>
-            </td>
+                <a href="https://github.com/luizabere" target="_blank" style="color: purple;">Visit My GitHub</a></p>
+                </td>
 
-            <td width="30%" valign="top">
-                <h3>Academic Qualifications</h3>
-                <p>B.Tech (Computer Science) from ABC University</p>
-                <p>Specializations:</p>
-                <ul>
-                    <li>Systems Analysis</li>
-                    <li>Advanced JavaScript Techniques</li>
-                    <li>Web Accessibility Standards</li>
-                    <li>Performance Optimization in Web Applications</li>
-                    <li>Cloud Computing Infrastructure</li>
-                    <li>Security in Web Applications</li>
-                    <li>Advanced Algorithms</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
+                <td width="30%" valign="top">
+                    <h3>Academic Qualifications</h3>
+                    <p>B.Tech (Computer Science) from ABC University</p>
+                    <p>Specializations:</p>
+                    <ul>
+                        <li>Systems Analysis</li>
+                        <li>Advanced JavaScript Techniques</li>
+                        <li>Web Accessibility Standards</li>
+                        <li>Performance Optimization in Web Applications</li>
+                        <li>Cloud Computing Infrastructure</li>
+                        <li>Security in Web Applications</li>
+                        <li>Advanced Algorithms</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
 
-    <h3 style="margin-bottom: 5px;">Peer Reviews</h3>
-    <table>
-        <tr>
-            <td width="33.3%" valign="top">
-                John Doe consistently delivers high-quality, innovative solutions that exceed project expectations. - Steven, Project Lead
-            </td>
-            <td width="33.3%" valign="top">
-                John Doe is known for his precise attention to detail and his ability to mentor younger developers. - David, UI Designer
-            </td>
-            <td width="33.3%" valign="top">
-                John's approach to problem-solving has been instrumental in our success. - Sarah, Frontend Developer
-            </td>
-        </tr>
-    </table>
+    <h3>Peer Reviews</h3>
+    <div class="table-container">
+        <table>
+            <tr>
+                <td width="33.3%" valign="top">
+                    John Doe consistently delivers high-quality, innovative solutions that exceed project expectations. - Steven, Project Lead
+                </td>
+                <td width="33.3%" valign="top">
+                    John Doe is known for his precise attention to detail and his ability to mentor younger developers. - David, UI Designer
+                </td>
+                <td width="33.3%" valign="top">
+                    John's approach to problem-solving has been instrumental in our success. - Sarah, Frontend Developer
+                </td>
+            </tr>
+        </table>
+    </div>
 
     <div style="text-align: center;">
         <p>&copy; [2025] All rights reserved by John Doe</p>
